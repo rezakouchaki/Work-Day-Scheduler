@@ -11,7 +11,7 @@ To create a work-day planner that uses third-party API's such as jQuery, moment.
 Once you've opened the application, click on any text area to the right of the hour you wish to create a task. Then, type out the task that you want and click the save button on the end of the row.
 
 ## 🔍 Preview
-![A gif of the planner in action!](./assets/gif/work-day-scheduler-preview.gif)
+![A gif of the planner in action!](assets/images/work-day-scheduler-preview.gif)
 
 ## 📝 User Story
 ```md
