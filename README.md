@@ -1,6 +1,6 @@
 # 📝 Homework Assignment #4: Work Day Planner
 
-📌[Link to Live Website]
+📌[Link to Live Website](https://rezakouchaki.github.io/Work-Day-Scheduler/)
 
 📌[Link to Github] (https://github.com/rezakouchaki/Work-Day-Scheduler)
 
