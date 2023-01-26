@@ -2,7 +2,7 @@
 
 📌[Link to Live Website]
 
-📌[Link to Github]
+📌[Link to Github] (https://github.com/rezakouchaki/Work-Day-Scheduler)
 
 ## 🔨 Task
 To create a work-day planner that uses third-party API's such as jQuery, moment.js, and Bootstrap. Parts of the application will change dynamically depending on the current time and day. The planner should also be able to save any tasks entered into the text area fields to local storage.
