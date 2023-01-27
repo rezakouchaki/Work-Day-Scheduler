@@ -12,7 +12,8 @@ $(function () {
     console.log(userData, timeBlock)
     localStorage.setItem(timeBlock, userData)
   })
-//we loop through the time slots to deside if they are past,present or future and color code them with css ids
+//we loop through the time slots to decide if they are past,present or future and color code them with css ids
+//Also store the value of the textarea into the local storage
   for (let i = 9; i <= 17; i++) {
     var storedValue = localStorage.getItem(i)
     $("#hour-" + i).children(".description").val(storedValue)
