@@ -13,7 +13,7 @@ $(function () {
     localStorage.setItem(timeBlock, userData)
   })
 //we loop through the time slots to decide if they are past,present or future and color code them with css ids
-//Also store the value of the textarea into the local storage
+//Also retrieve the value of the textarea from the local storage
   for (let i = 9; i <= 17; i++) {
     var storedValue = localStorage.getItem(i)
     $("#hour-" + i).children(".description").val(storedValue)
@@ -27,10 +27,4 @@ $(function () {
   }
 });
 
-$(".saveBtn").on("click", function () {
-  var userData = $(this).siblings(".description").val()
-  var timeBlock = $(this).parent().attr("id").split("-")[1]
-  console.log(userData, timeBlock)
-  localStorage.setItem(timeBlock, userData)
-});
 
