@@ -9,7 +9,6 @@ $(function () {
   $(".saveBtn").on("click", function () {
     var userData = $(this).siblings(".description").val()
     var timeBlock = $(this).parent().attr("id").split("-")[1]
-    console.log(userData, timeBlock)
     localStorage.setItem(timeBlock, userData)
   })
 //we loop through the time slots to decide if they are past,present or future and color code them with css ids
